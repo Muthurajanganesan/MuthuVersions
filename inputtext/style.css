@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.top {
+    padding: 10px;
+    text-align: center;
+}
+.center {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+}
+.bottom {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.speedWrap {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+#speedBox {
+    width: 120px;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+.arrows button {
+    width: 40px;
+    height: 36px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 4px;
+}
